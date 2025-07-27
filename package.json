@@ -16,12 +16,16 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
-    "@types/node": "^18.11.18",
+    "@types/node": "^18.19.120",
     "@types/react": "^18.0.26",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "prisma": "^4.8.1",
     "tailwindcss": "^3.2.4",
-    "typescript": "^4.9.4"
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
